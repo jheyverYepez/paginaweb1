@@ -1,0 +1,170 @@
+<!-- Etiqueta usada para decirle al navegador qué versión debe renderizar en este caso será HTML5 -->
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="Style.css">
+<!--Etiqueta usada para decirle al navegador que se usarán el tipo de codificación utf-8 o para caracteres especiales-->
+    <meta charset='utf-8'>
+    <!--Etiqueta usada para optimización para móviles diciendo que el-->
+    <!--width(ancho) es igual al tamaño de la pantalla actual-->
+    <!--user-scalable=no significa que el usuario no puede hacer zoom sobre la página evitando que el usuario genere una distorsión en la visualización-->
+    <meta name='viewport' content='width=device-width, user-scalable=no'>
+    <!--Etiqueta usada para colocar el nombre en la pestaña del navegador web-->
+    <title>CELULARES Y ACCESORIOS MOROJHEY</title>
+    <style type="text/css"href="Style.css">
+        * {
+            padding:0px;
+            margin: 0px;
+        }
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+ul,ol{
+  list-style:none;
+}
+
+.nav li a {
+  background-color:#000;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 15px;
+  display:block;
+}
+
+.nav li a:hover{
+  background-color:#434343;
+}
+
+.nav > li{
+  float:left;
+}
+
+.nav li ul{
+  display:none;
+  position:absolute;
+   min-width:140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
+    </style>
+<!--Etiqueta usada para colocar el autor de la página web-->
+    <meta name='author' content='Jheyver Yepez Rojas'>
+       <!--Etiqueta usada para colocar las palabras con las cuales se indexara la página y se podrá encontrar por google-->
+    <meta name='keywords' content='html, css, fundamentos'>
+    <!--Etiqueta usada para dar una descripción de la página web-->
+    <meta name='description' content='Compra cualquier tipo de celulares y todo lo relacionado con ellos'>
+<h3 style="color:#FFFFFF">C&A MOROJHEY</h3>
+
+
+  </head>
+  <body>
+
+    <div id="header">
+    <basefont color="#006699" size="4" face="Arial">
+      <ul class="nav">
+        <li><a href="">INICIO</a></li>
+
+
+    <li><a href="">COMPUTADORES</a>
+      <ul>
+        <li><a href="">MAC</a></li>
+        <li><a href="">HP</a></li>   
+        <li><a href="">LENOVO</a></li>
+        <li><a href="">ASUS</a></li>
+        <li><a href="">HYUNDAI</a></li>
+        <li><a href="">LG</a>
+          <ul>
+                <li><a href="">DELL</a></li>
+                <li><a href="">ACER</a></li>   
+                <li><a href="">ALIENWARE</a></li>
+                <li><a href="">RAZER</a>
+ <ul>
+                <li><a href="">SONY</a></li>
+                <li><a href="">MI</a></li>   
+                <li><a href="">PANASONIC</a></li>
+                <li><a href="">MSI</a></li>
+          </ul>
+                </li>
+          </ul>
+      </li>
+        
+   </ul>
+</li>
+
+        <li><a href="">AUDIFONOS</a>
+        <ul>
+        <li><a href="">SENNHEISER</a></li>
+        <li><a href="">BOSE</a></li>   
+        <li><a href="">DENON</a></li>
+        <li><a href="">SHURE</a></li>
+        <li><a href="">AIRPODS</a></li>
+        <li><a href="">PIONEER</a></li>
+        
+          </ul>
+        </li>
+
+        <li><a href="">ESTUCHES</a></li><br>
+<br><br>
+
+<h2 style="color:#FFFFFF">¡LO MAS NUEVO!</h2>
+    
+    <div class="slider-frame">
+        <ul>
+            <li><img src="slider1.jpg" alt=""></li>
+            <li><img src="slider2.jpg" alt=""></li>
+            <li><img src="slider3.jpg" alt=""></li>
+            <li><img src="slider4.jpg" alt=""></li>
+        </ul>
+    </div>
+     </div>
+
+     <form class="form">
+      <div class="form_container">
+      <h2 class="form_container">Mantente informado acerca de C&A MOROJHEY a traves de (Correos publicitarios)</h2>
+      <input type="text" class="form_input" placeholder="nombre:">
+      <input type="email" class="form_input" placeholder="email:">
+      <textarea class="form_input form_input--message" placeholder="Mensaje:"></textarea>
+
+      <input type="submit" value="Enviar" class="form">
+       </div>
+     </form>
+<footer>
+	<img src="images.png" alt="" class="logo"> 
+	<div class="social-icons-container">
+		<a href="" class="social-icon"></a>
+		<a href="" class="social-icon"></a>
+		<a href="" class="social-icon"></a>
+		<a href="" class="social-icon"></a>
+	</div>
+	<ul class="footer-menu-container">
+		<li class="menu-item">Legal</li>
+		<li class="menu-item">Cookies</li>
+		<li class="menu-item">Privacy</li>
+		<li class="menu-item">Shipping</li>
+		<li class="menu-item">Refounds</li>
+	</ul>
+	<span class="copyright">&copy;2022,Celulares y Accesorios Morojhey. All rights reserved.</span>
+</footer>
+
+        
+    
+  </body>
+</html>
+
+
+
